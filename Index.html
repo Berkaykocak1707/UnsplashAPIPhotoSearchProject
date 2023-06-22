@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>Photo Search</title>
+    <link rel="stylesheet" href="Index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <h1 class="h1">Photo Search</h1>
+        <form class="js-form" id="js-form">
+          <input type="text" class="search-input js-search-input" id="searchInput" placeholder="Search high quality photos">
+          <button type="submit" class="btn">Go</button>
+        </form>
+
+        <div class="result-stats js-result-stats"></div>
+        <div class="search-results js-search-results">
+         
+        </div>
+        <div class="pagination">
+            <button id="ShowMore">Show More</button>
+        </div>
+      </div>
+
+      <div class="spinner js-spinner hidden">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <p><a href="https://github.com/berkaykocak1707" class="github-link">Berkay Kocak</a></p>
+    </footer>
+
+    <script type="text/javascript" src="Index.js"></script>
+  </body>
+</html>
