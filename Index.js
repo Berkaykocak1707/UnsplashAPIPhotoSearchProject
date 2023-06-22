@@ -1,4 +1,4 @@
-//const apiKey = "YOUR_API_KEY"
+//const apiKey = "YOUR_API_KEY";
 
 const formEl = document.getElementById("js-form");
 const searchEl = document.getElementById("searchInput");
